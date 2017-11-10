@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url(svgs/background.svg);
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #111;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 700;
+  color: #39ADD1;
+  transition: .5s ease-out;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+.icon{
+  width: 36px;
+  height: 16px; 
+}
+.icon .st0{
+  transition: .5s ease-out;
+}
+
+li:hover{
+  color: #aee2f5;
+}
+li:hover .icon .st0{
+  fill: #aee2f5;
+}
+
+.logo{
+  height: 120px;
+  width: 140px;
+  margin: 0 auto;
+}
+.logo svg{
+  transition: .3s ease-out;
+}
+.logo svg:hover{
+  transform: scale(1.1);
+}
+.logo-title{
+  display: none;
+}
+.first{
+  color:#da8058;
+}
+.second{
+  color:#f4c6a6;
+}
+.third{
+  color:#ba8058;
+}
+.fourth { 
+  color:#52595F;
+}
+.pic{
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  
+}
+.sub{
+  position: absolute;
+  display: block;
+  left:42px;
+  color:#da8058;
+  font-size: 1.2em;
+  
+}
+@media screen and (max-width: 425px){
+  .letters{
+    display: none;
+  }
+  .logo-title{
+    display: block;
+    color:#EAAA7F;
+  }
+  .pic{
+    margin-bottom: 40px;
+  }
+}
