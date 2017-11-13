@@ -69,6 +69,7 @@ footer {
   width: 36px;
   height: 16px; 
 }
+
 .icon .st0{
   transition: .5s ease-out;
 }
@@ -76,6 +77,7 @@ footer {
 li:hover{
   color: #aee2f5;
 }
+
 li:hover .icon .st0{
   fill: #aee2f5;
 }
@@ -85,33 +87,31 @@ li:hover .icon .st0{
   width: 140px;
   margin: 0 auto;
 }
+
 .logo svg{
   transition: .3s ease-out;
 }
+
 .logo svg:hover{
   transform: scale(1.1);
 }
-.logo-title{
-  display: none;
-}
+
 .first{
   color:#da8058;
 }
+
 .second{
   color:#f4c6a6;
 }
+
 .third{
   color:#ba8058;
 }
+
 .fourth { 
   color:#52595F;
 }
-.pic{
-  position: relative;
-  display: inline-block;
-  width: 160px;
-  
-}
+
 .sub{
   position: absolute;
   display: block;
@@ -120,15 +120,29 @@ li:hover .icon .st0{
   font-size: 1.2em;
   
 }
-@media screen and (max-width: 425px){
-  .letters{
+
+.letters{
+  display: none;
+}
+
+.logo-title{
+  display: block;
+  color:#EAAA7F;
+}
+
+.pic{
+  position: relative;
+  display: inline-block;
+  width: 160px; 
+  margin-bottom: 40px; 
+}
+
+@media screen and (min-width: 425px){
+  .logo-title{
     display: none;
   }
-  .logo-title{
+  
+  .letters{
     display: block;
-    color:#EAAA7F;
-  }
-  .pic{
-    margin-bottom: 40px;
   }
 }
